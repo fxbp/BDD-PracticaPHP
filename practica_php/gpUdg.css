@@ -1,0 +1,193 @@
+﻿input, select{
+	border-radius: 5px;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+	
+}
+
+#menu li {
+    float: left;
+	font-weight:bold;
+	
+	
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+	width:68px;
+	min-height:30px;
+	font-size: small;
+	
+	
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #111;
+}
+
+
+
+#extern {
+	position: relative;
+}
+
+
+#contenidorDades {
+	float: left;
+	border: 2px solid #333;
+	border-radius: 10px;
+	margin: 10px;
+	width: 42%;
+	padding: 10px;
+
+}
+
+#contenidorFormAmple{
+	float: left;
+	width: 98%;
+	border: 2px solid #333;
+	border-radius: 10px;
+	margin-top:10px;
+	padding: 10px;
+}
+
+
+input[type=submit] {
+	margin-top:10px;
+    padding:5px 15px; 
+    background:#333; 
+	color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	float: right;
+	font-weight:bold;
+	box-shadow: 0 5px #999;
+	
+}
+
+table.llista{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+table.llista th {
+	background: #444;
+	color: white;
+	border:1px solid #111;
+	padding-left: 5px;
+}
+
+table.llista td{
+	border:1px solid black;
+	padding-left: 5px;
+
+}
+
+.oddRow{
+	background: #E6E6E6;
+}
+
+input[type=submit]:active {
+	background:#111;	
+	box-shadow: 0 2px #666;
+	transform: translateY(3px);
+
+}
+
+p#error{
+	font-weight: bold;
+	color: red;
+}
+
+table.formulariMig {
+	width: 100%;
+	margin-top:10px;
+}
+table.formulariMig th{
+	text-align: left;
+	width: 50%;
+	margin-top:10px;
+}
+table.formulariMig td{
+	width:100%;
+	padding:5px;
+}
+
+table.formulariMig td input{
+	width: 100%;
+}
+
+table.formulari {
+	width: 100%;
+	margin-top:10px;
+}
+table.formulari th{
+	text-align: left;
+	width: 25%;
+	margin-top:10px;
+}
+table.formulari td{
+	width:100%;
+	padding:10px;
+}
+
+table.formulari td input,select{
+	width: 100%;
+}
+
+table.llista td, th{
+	text-align: left;
+	width: 10%;
+}
+
+h1,h2,h3,h4,h5,td { 
+	font-family: Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	color:#333;
+	text-align: center;
+	
+}
+	
+body{
+	position: absolute;
+	  font-family: Arial,Helvetica,sans-serif;
+	  color : #333;
+	  background:white;
+	  margin-left: 2.5%;
+	  margin-right: 2.5%;
+	  left: 20%;
+	  right: 20%;
+	  text-align:left;
+}
+
+B{ 
+  font-weight: bold;
+}
+
+STRONG{
+  font-weight: bold;
+}
+
+p{
+
+	font-family: Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	color:#333;
+	text-align: left;
+  
+}
+
